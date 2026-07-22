@@ -19,8 +19,12 @@ public class deldel{
                 for (int i = 4; i<= str.length()-1; i++){
                     newstr += str.charAt(i);
                 }
+                newstr = (str.charAt(0) + newstr);
             }
-            newstr = (str.charAt(0) + newstr);
+            else{
+                newstr = str;
+            }
+            
         }else{
             newstr = str;
         }

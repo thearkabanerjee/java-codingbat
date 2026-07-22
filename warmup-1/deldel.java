@@ -11,5 +11,6 @@ public class deldel{
 
     public static String del(String str){
         // there goes the rest of it
+        return str;
     }
 }

@@ -5,6 +5,7 @@ public class deldel{
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
         
+        System.out.println(del(str));
 
         sc.close();
     }
